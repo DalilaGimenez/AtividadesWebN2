@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "123456",
+      "profile": {
+        "bio": "I love sunsets and mountain hiking.",
+        "location": "New York, USA",
+        "website": "http://johndoe.com"
+      },
+      "_id": "1"
+    },
+    {
+      "id": "2",
+      "username": "jane_doe",
+      "email": "jane@example.com",
+      "password": "654321",
+      "profile": {
+        "bio": "Avid traveler and food lover.",
+        "location": "San Francisco, USA",
+        "website": "http://janedoe.com"
+      },
+      "_id": "2"
+    }
+  ],
+  "photos": [
+    {
+      "id": "1",
+      "userId": 1,
+      "title": "Sunset",
+      "description": "Beautiful sunset",
+      "url": "https://example.com/sunset.jpg",
+      "likes": [],
+      "comments": [],
+      "_id": "1",
+      "comment": "dffg"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "title": "Mountain",
+      "description": "Majestic mountain",
+      "url": "https://www.pexels.com/pt-br/foto/cachorro-peludo-curto-marrom-e-branco-1805164/",
+      "likes": [],
+      "comments": [],
+      "_id": "2"
+    }
+  ]
+}
